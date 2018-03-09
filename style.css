@@ -1,0 +1,55 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 16px;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: url(https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif; }
+
+.page-title {
+  text-align: center; }
+
+.keys-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  min-height: 80vh; }
+
+.key {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 15px 40px;
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  transition: all 0.07s ease; }
+
+kbd {
+  font-size: 40px; }
+
+span {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f96a04; }
+
+.playing {
+  border: 5px solid red;
+  box-shadow: 3px 3px 5px;
+  transform: scale(1.1); }
+
+/*# sourceMappingURL=style.css.map */
